@@ -1,0 +1,14 @@
+
+spring:
+    application:
+        name: SQSDemo
+
+    cloud:
+        aws:
+            region:
+                static: ap-south-1
+            credentials:
+                accessKey: your-aws-accessKey
+                secretKey: your-aws-secretKey
+            sqs:
+                endpoint: your-aws-sqs-url
